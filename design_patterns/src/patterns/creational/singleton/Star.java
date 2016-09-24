@@ -1,4 +1,4 @@
-package com.mcorp.creational.singleton;
+package patterns.creational.singleton;
 
 public class Star {
 
