@@ -8,7 +8,7 @@ public class Star {
 	private Star() {
 	}
 
-	public static Star getInstance() {
+	public static synchronized Star getInstance() {
 
 		if (_sun == null) { // lazily initialized.
 			_sun = new Star();// only one sun exists in our planetary system.
