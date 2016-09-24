@@ -1,8 +1,14 @@
 package patterns.creational.observer;
 
+/**
+ * Holds the Stock details
+ *
+ */
 public class Stock {
 
+	//name of the stock
 	private String name;
+	//current price of the stock
 	private double price;
 
 	public Stock() {
